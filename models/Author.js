@@ -2,7 +2,7 @@ module.exports = (sequelize, DataTypes) => {
   const Author = sequelize.define(
     "Author",
     {
-      name: DataTypes.STRING,
+      authorName: DataTypes.STRING,
       gender: DataTypes.ENUM("male", "female"),
     },
     {
